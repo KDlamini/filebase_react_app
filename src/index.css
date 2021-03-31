@@ -5,6 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(49, 44, 44);
+  color:rgb(240, 248, 255);
+}
+
+.app {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgb(66, 60, 60);
+  border: 2px solid rgb(31, 31, 31);
+  border-radius: 5px;
+  min-width: 200px;
+  width: 70%;
+  height: auto;
+}
+
+.heading {
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  padding-left: 10%;
+  padding-bottom: 15px;
+}
+
+.icon-layout {
+  display: flex;
+  align-items: flex-start;
+}
+
+.icon {
+  color: rgb(27, 116, 151);
+}
+
+.caret {
+  color: rgb(58, 190, 241);
+}
+
+.filename {
+  color: rgb(255, 255, 159);
+}
+
+.children {
+  padding-left: 30px;
 }
 
 code {
